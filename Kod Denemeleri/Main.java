@@ -11,14 +11,14 @@ public class Main {
         System.out.println("Bir (double) değer giriniz - Örnek: 23.4");
         double doubleDeneme = scanner.nextDouble();
 
-        // int -> double dönüşümü
+        
         double degisenInt = intDeneme;
-        System.out.println("Degisen int (double olarak): " + degisenInt);
+        System.out.println("Degisen int:" : " + degisenInt);
 
-        // double -> int dönüşümü (Ondalık kısmı kaybolur)
+       
         int degisenDouble = (int) doubleDeneme;
-        System.out.println("Degisen double (int olarak): " + degisenDouble);
+        System.out.println("Degisen double:": " + degisenDouble);
 
-        scanner.close(); // Scanner'ı kapatma (isteğe bağlı)
+        scanner.close(); 
     }
 }
