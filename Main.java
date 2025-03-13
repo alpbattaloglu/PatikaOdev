@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        // Scanner sınıfını kullanarak kullanıcıdan veri alıyoruz
+        
         java.util.Scanner scanner = new java.util.Scanner(System.in);
         
-        // Kullanıcıdan bir sayı alıyoruz
+        
         System.out.print("Bir sayı giriniz: ");
         int sayi = scanner.nextInt();
         
     
-        int[] bolunebilenSayilar = new int[sayi / 12 + 1]; // 12'nin katları olacağı için
+        int[] bolunebilenSayilar = new int[sayi / 12 + 1]; 
         int index = 0;
         
      
@@ -21,7 +21,7 @@ public class Main {
             }
         }
         
-        // Ortalama hesaplama
+     
         if (index > 0) {
             double toplam = 0;
             for (int i = 0; i < index; i++) {
